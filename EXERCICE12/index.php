@@ -12,9 +12,9 @@
   
      <h1>SAISIE D'UN NOMBRE</h1>
     
-    <label for="number">veillez saisir un nombre </label>
-    <input type="text" name="num1"  placeholder="veiller saisir un nombre"/>
-    <span style="color:red;">
+    <label for="number">veiller saisir une langue francais ou anglais</label>
+    <input type="text" name="num1"  placeholder="Veillez Saisir Une Langue en fancais ou en Anglais"/>
+    <span style="background-color:red;">
        <?php
         if (isset ($_GET['msg'])){
           echo $_GET['msg'];
@@ -23,6 +23,10 @@
           (isset ($_GET['msg1'])){
             echo $_GET['msg1'];
         }
+        elseif
+        (isset ($_GET['msg3'])){
+          echo $_GET['msg3'];
+      }
        ?> 
     </span>
     <br>
