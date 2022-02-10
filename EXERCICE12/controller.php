@@ -2,7 +2,7 @@
 
 include_once'fonctions.php';
 if (isset($_POST['valider'])) {
-$number=$_POST['num1'];
+$number=$_POST['lang'];
 }
-controlSaisi($number);
+afficheMois($number);
 ?>

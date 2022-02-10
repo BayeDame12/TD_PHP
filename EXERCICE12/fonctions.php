@@ -1,30 +1,4 @@
 <?php
-    function vide($langue):bool{
-        return empty($langue);
-    }
-    function chaine($langue):bool{
-        return is_numeric($langue);
-    }
-function controlSaisi($langue){
-if (vide($langue)) {
-    # code...
-    $msg="veiller saisir le champs";
-    header("location:index.php?msg=$msg");
-} 
-else if(chaine($langue)){
-    # code...
-    $msg1="veiller saisir une chaine svp!!";
-
-    header("location:index.php?msg1=$msg1");
-
-}
-
-else {
-    
-    afficheMois($langue);
-}
-}
-
     function afficheMois($langue){
      
         $tab=[
@@ -33,23 +7,43 @@ else {
         ];
         if ($langue=="francais") {
             # code...
-            foreach($tab["francais"] as $i){
-              echo$i."<br>";
+
+            $prem=$tab["francais"];
+            echo"<table border=10 width=100>";
+            foreach($prem as $i=> $d){
+            if($i%4==0){
+             echo "<tr>";
             }
-           
             
+            echo "<td>".$d."</td>";
+            if(($i+1)%4==0){
+            echo"</tr>";   
+            }
+            }
+            echo"</>"; 
+
+
+
+              
         } elseif($langue=="anglais") {
             # code...
-            foreach($tab["anglais"] as $i){
-                echo$i."<br>";
-              }
-
-        }
-        else {
+            $prem=$tab["anglais"];
+            echo"<table border=10 width=100>";
+            foreach($prem as $i=> $d){
+            if($i%4==0){
+             echo "<tr>";
+            }
             
-            $msg3="choisi entre la langue francais ou englais uniquement!!";
+            echo "<td>".$d."</td>";
+            if(($i+1)%4==0){
+            echo"</tr>";   
+            }
+            }
+            echo"</>"; 
 
-           header("location:index.php?msg3=$msg3");
+
+
         }
+        
     }
 ?>
