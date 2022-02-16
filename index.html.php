@@ -10,7 +10,7 @@
 <body>
    
     <header>
-<h1>BIENVENUE SUR LE MENU EXERCICE TD_PHP</h1>
+    <h1>BIENVENUE SUR LE MENU EXERCICE TD_PHP</h1>
     </header>
     <main>
     <ul class="cla">

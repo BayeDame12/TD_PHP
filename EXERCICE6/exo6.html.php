@@ -10,7 +10,7 @@
 </head>
 <body>
  <!-- form ation="localhost port" -->
-  <form  action="controller.php" method="POST">
+  <form  class="form" action="controller.php" method="POST">
   
      <h1>aX2+bX+c=0</h1> 
     

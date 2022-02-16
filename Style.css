@@ -10,8 +10,8 @@ background-image: url();
 header{
 
 height: 10vh;
-background-image: url(r.jpg);
-background-size: cover;
+/* background-image: url(r.jpg);
+background-size: cover; */
 }
 main{
 background-image: url(fom5.jpg);
@@ -21,9 +21,7 @@ background-image: url(fom5.jpg);
     justify-content: space-around;
     padding: 5rem;
 }
-li{
-    
-}
+
 a{
 display: flex;
 text-decoration: none;
@@ -35,6 +33,6 @@ color: black;
 h1{
     display: flex;
     justify-content: center;
-justify-content: baseline;
-color: aliceblue;
+    justify-content: baseline;
+    color: rgb(3, 12, 20);
 }

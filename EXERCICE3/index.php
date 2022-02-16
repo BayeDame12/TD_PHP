@@ -1,47 +1,47 @@
 <?php
  include 'exo3.php';
+ $num=rand(10,20);
+ $num1=rand(10,20);
+ echo"calcule de la SOMME PRODUIT EXPONENTIEL DIFFERENCE MODULO DIVISION"."<br>";
+$som=somme($num,$num1);
+echo"Somme=".$som."<br>";
 
-$som=somme(rand(),rand());
-echo"****************************FONCTION SOMME********************************"."<br>";
-echo"\n";
-echo $som;
-echo"\n";
+$prod=produit($num,$num1);
 
+echo"produit=".$prod."<br>";
 
-$prod=produit(rand(),rand());
-echo"****************************FONCTION PRODUIT********************************"."<br>";
-echo"\n";
-echo $prod;
-echo"\n";
+$expo=exponen($num,$num1);
 
-$expo=exponen(rand(1,20),rand(2,30));
-echo"****************************FONCTION EXPONENTIELLE********************************"."<br>";
-echo"\n";
-echo $expo;
-echo"\n";
-
-$diff=difference(rand(),rand());
-echo"****************************FONCTION DIFFERENCE********************************"."<br>";
-echo"\n";
-echo $diff;
-echo"\n";
-
-$modul=modul(rand(),rand());
-echo"****************************FONCTION MODULO********************************"."<br>";
-echo"\n";
-echo $modul;
-echo"\n";
-
-echo"****************************FONCTION CARRE********************************"."<br>";
-carre(rand(),rand());
-echo"\n";
-
-$divi=division(rand(),rand());
-echo"****************************FONCTION DIVISION********************************"."<br>";
-echo"\n";
-echo $divi;
-echo"\n";
+echo"l exponentiel=".$expo."<br>";
 
 
+$diff=difference($num,$num1);
+echo"difference=".$diff."<br>";
+
+$modul=modul($num,$num1);
+echo"modulo=".$modul."<br>";
+$divi=division($num,$num1);
+echo"division=".$divi."<br>";
 
 ?>
+!<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="../ccss.css/Style.css" rel="stylesheet">
+
+    </head>
+    <body>
+    <div class="a">
+     <button> <a href="../EXERCICE2/index.php"> EXO2 </a> </button>
+     <button> <a href="../EXERCICE4/index.php"> EXO4 </a> </button>
+    </div>
+     
+
+
+
+    </body>
+</html>

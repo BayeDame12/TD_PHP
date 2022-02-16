@@ -14,17 +14,7 @@
     
     <label for="number">veillez saisir un nombre </label>
     <input type="text" name="num1"  placeholder="veiller saisir un nombre"/>
-    <span style="color:red;">
-       <?php
-        if (isset ($_GET['msg'])){
-          echo $_GET['msg'];
-        }
-        elseif
-          (isset ($_GET['msg1'])){
-            echo $_GET['msg1'];
-        }
-       ?> 
-    </span>
+  z
     <br>
     <input type="submit"  name="valider" />
 </form>

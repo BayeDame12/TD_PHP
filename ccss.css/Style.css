@@ -1,0 +1,17 @@
+.a{
+    display :flex;
+    gap: 10rem;
+    position: absolute;
+    top: 25%;
+    left:30%;
+
+ }
+ button{
+     padding: 1rem;
+     border: radius 25px; ;
+     padding-left: 1rem;
+     padding-right:1rem ;
+    
+}
+ 
+ 
