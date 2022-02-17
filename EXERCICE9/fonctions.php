@@ -59,6 +59,10 @@ function testval($a){
     <br>
     <input type="submit"  name="valider" />
     
+    <div class="a">
+     <button> <a href="../EXERCICE8/index.php"> EXO8 </a> </button>
+     <button> <a href="../EXERCICE10/index.php"> EXO10 </a> </button>
+    </div>
 </form>
 </body>
 </html>
