@@ -1,3 +1,5 @@
+
+
 <?php
 function affichesurface($cote){
  $surface=($cote * $cote);

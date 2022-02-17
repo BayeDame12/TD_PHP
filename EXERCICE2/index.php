@@ -26,7 +26,7 @@ $d=diagonale($num,$num1);
     <body>
     <div class="a">
      <button> <a href="../EXERCICE1/index.php"> EXO1 </a> </button>
-     <button> <a href="../EXERCICE2/index.php"> EXO3 </a> </button>
+     <button> <a href="../EXERCICE3/index.php"> EXO3 </a> </button>
     </div>
      
 

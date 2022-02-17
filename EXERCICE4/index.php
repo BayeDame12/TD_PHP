@@ -18,8 +18,8 @@
     </head>
     <body>
     <div class="a">
-     <button> <a href="../EXERCICE6/exo6.html.php"> EXO6 </a> </button>
-     <button> <a href="../EXERCICE8/index.php"> EXO8 </a> </button>
+     <button> <a href="../EXERCICE3/index.php"> EXO3 </a> </button>
+     <button> <a href="../EXERCICE5/index.php"> EXO5 </a> </button>
     </div>
      
 
