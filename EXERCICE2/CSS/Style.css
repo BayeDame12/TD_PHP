@@ -42,7 +42,7 @@ label{
     color: white;
 }
 .con{
-    background-color:rgb(3, 4, 5);
+    background-color:rgb(233, 221, 221);
     width: 85%;
     height: 40%;
     position: absolute;
@@ -67,12 +67,4 @@ button{
     border-radius: 15px;
     border: none;
 
-}
-form{
-    display: flex;
-    flex-direction: column;
-    gap-between: 1rem;
-}
-input{
-    padding: 1rem;
 }

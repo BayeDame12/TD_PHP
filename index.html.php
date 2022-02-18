@@ -14,30 +14,33 @@
     </header>
     <main>
     <ul class="cla">
-        <li><a href="EXERCICE1/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice1</span>     </a></li>
+        <li><a href="EXERCICE1/index.html.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice1</span>     </a></li>
         <li><a href="EXERCICE2/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice2</span>     </a></li>
         <li><a href="EXERCICE3/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice3</span>     </a></li>
         <li><a href="EXERCICE4/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice4</span>     </a></li>
+        <li><a href="/Project_Php/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>Application</span></a></li>
+
     </ul>
 
     <ul class="cla">
         <li><a href="EXERCICE5/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice5</span>     </a></li>
         <li><a href="EXERCICE6/exo6.html.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice6</span>     </a></li>
-        <li><a href="EXERCICE"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice7</span></a></li>
-        <li><a href="EXERCICE"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice8</span></a></li>
+        <li><a href="EXERCICE7"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice7</span></a></li>
+        <li><a href="EXERCICE8/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice8</span></a></li>
     </ul>
     <ul class="cla">
-        <li><a href="EXERCICE9/controller.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice9</span>     </a></li>
-        <li><a href="EXERCICE"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice10</span></a></li>
-        <li><a href="EXERCICE"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice11</span></a></li>
-        <li><a href="EXERCICE"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice12</span></a></li>
+        <li><a href="/TD_PHP/EXERCICE9/controller.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice9</span>     </a></li>
+        <li><a href="/TD_PHP/EXERCICE10/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice10</span></a></li>
+        <li><a href="/TD_PHP/EXERCICE11/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice11</span></a></li>
+        <li><a href="/TD_PHP/EXERCICE12/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice12</span></a></li>
     </ul>
     <ul class="cla">
-        <li><a href="EXERCICE"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice13</span></a></li>
-        <li><a href="EXERCICE"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice14</span></a></li>
+        <li><a href="EXERCICE13/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice13</span></a></li>
+        <li><a href="EXERCICE14/index.php"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice14</span></a></li>
         <li><a href="EXERCICE"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice15</span></a></li>
         <li><a href="EXERCICE"><img width="15%" height="10%" src="imgine.jpeg" alt=""><span>exercice16</span></a></li>
     </ul>
+    
     
     </main>
 
